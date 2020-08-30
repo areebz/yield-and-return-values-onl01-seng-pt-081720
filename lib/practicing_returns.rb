@@ -8,8 +8,6 @@ def hello(array)
   collection << yield(array[i])
     i += 1	   
   end
-  collection
+ 
+ return collection
 end	
-
-hello(["Tim", "Tom", "Jim"]) 
-return { |name| "Hi, #{name}" }

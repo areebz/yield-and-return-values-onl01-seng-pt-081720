@@ -13,5 +13,5 @@ end
 
 
 hello(["Tim", "Tom", "Jim"]) 
-puts { |name| "Hi, #{name}" }
+return { |name| "Hi, #{name}" }
 

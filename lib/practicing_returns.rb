@@ -13,5 +13,5 @@ end
 
 
 
-return hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
-end 
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+
